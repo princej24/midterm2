@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#job-listings {
+    width: 70%;
+    margin-right: 10px;
+}
+
+#job-listings .job {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#search-input{
+    width: 50%;
+}
+
+#subscribe-section {
+    width: 30%;
+    padding-left: 10px;
+}
+
+#subscribe-form {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+#subscribe-form h3 {
+    margin-top: 0;
+}
+
+#subscribe-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#subscribe-form input,
+#subscribe-form button {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#subscribe-form label {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+#subscribe-form button {
+    background: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#subscribe-form button:hover {
+    background: #4cae4c;
+}
